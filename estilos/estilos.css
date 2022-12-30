@@ -1,0 +1,153 @@
+/* formatações gerais (body, *, h1...) */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1.05em;
+}
+
+body {
+	width: 920px;
+	margin: auto;
+	font-size: 1em;
+	font-family:  Helvetica, sans-serif;
+	text-align: center;
+	background-image: url('imagens/back1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+p {
+	color: white;
+	text-shadow: #FFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #f7b600; /* cor dos links da página */
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* formatação da área total */
+
+#area-principal {
+	width: 920px;
+	margin: auto;
+	padding: 10px;
+	position: relative;
+
+}
+
+/* início da formatação do cabeçalho */
+
+#cabecalho {
+	border: 1px solid red;
+	text-align: center;
+
+}
+
+#logo {
+	font-size: 1.3em;
+	color: rgb(239,190,58);
+}
+
+
+#cabecalho a:link, #cabecalho a:visited { /* cor dos links do cabeçalho e do cabeçalho tão somente */
+	color: white;
+	padding: 5px 10px;
+}
+
+#cabecalho a:hover {
+	color: #F4BB00;
+	background: white;
+	text-decoration: none;
+}
+
+#cabecalho {
+	background: rgb(105,105,105, 0.5);
+	text-align: center;
+	padding: 10px;
+}
+
+/* fim da formatação do cabeçalho */
+
+
+/* início da formatação do corpo do texto */
+
+
+.publicacao {
+	margin: auto;
+	background-color: rgba(10,23,55,0.5);
+}
+
+.conteudo {
+	text-align: center;
+	clear: both;
+
+}
+
+.postagens {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+#fotos {
+	width: 500px;
+}
+
+#produtos {
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	width: 250px;
+	margin: 15px;
+	float: left;
+}
+
+/* início da formatação da página de quem somos */
+
+.somos {
+	
+	margin-top: 5px;
+	padding: 5px;
+	text-align: center;
+	align-content: center;
+}
+
+
+
+
+/* fim da formatação da página de quem somos */
+
+/* início da formatação da página de endereço */
+
+#endereco {
+	width: 880px;
+	padding: 10px;
+	margin-top: 5px;
+	font-size: 1.6em;
+	text-align: center;
+	text-shadow: 20px blue;
+}
+
+/* fim da formatação da página de endereço */
+
+
+/* fim da formatação do corpo do texto */
+
+#direitos {
+	background: lightslategray;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+}
